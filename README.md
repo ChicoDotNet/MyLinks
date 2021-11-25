@@ -5,7 +5,7 @@ This are the links that I always want to remember to make my work life easier.
 - [FFMPEG builds](http://aegiscorp.free.fr/ffmpeg/)
 
 ## Courses
--[AI-102 Designing and Implementing a Microsoft Azure AI Solution](https://microsoftlearning.github.io/AI-102-AIEngineer/)
+- [AI-102 Designing and Implementing a Microsoft Azure AI Solution](https://microsoftlearning.github.io/AI-102-AIEngineer/)
 
 ## Debug
 ### First thing to look
@@ -15,3 +15,6 @@ This are the links that I always want to remember to make my work life easier.
 
 ## Development
 - [Microsoft identity Platform](https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial)
+
+## Markup
+- [Diagrams and visualizations using text and code](https://mermaid-js.github.io/mermaid)
