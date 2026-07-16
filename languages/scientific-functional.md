@@ -102,7 +102,7 @@ SML/NJ is the reference implementation used as the primary installation entry po
 | macOS | [SML/NJ distribution](https://www.smlnj.org/dist/working/) |
 | Linux | [SML/NJ distribution](https://www.smlnj.org/dist/working/) |
 
-Alternative whole-program compiler: [MLton downloads](http://mlton.org/Download).
+Alternative whole-program compiler: [MLton releases](https://github.com/MLton/mlton/releases).
 
 Verify SML/NJ:
 
