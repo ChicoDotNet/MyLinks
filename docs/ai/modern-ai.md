@@ -5,7 +5,7 @@ Build AI as a product capability with explicit quality, cost, latency, safety, p
 ## OpenAI platform
 
 - [OpenAI developer quickstart](https://developers.openai.com/api/docs/quickstart)
-- [Responses API](https://developers.openai.com/api/docs/guides/responses)
+- [Responses API migration guide](https://developers.openai.com/api/docs/guides/migrate-to-responses)
 - [Model selection](https://developers.openai.com/api/docs/guides/model-selection)
 - [Structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs)
 - [Function calling](https://developers.openai.com/api/docs/guides/function-calling)
@@ -84,7 +84,7 @@ Choose WebRTC for browser and mobile interactive media, WebSocket for controlled
 
 - [OpenAI evaluation best practices](https://developers.openai.com/api/docs/guides/evaluation-best-practices)
 - [OpenAI Evals](https://github.com/openai/evals)
-- [Microsoft Foundry evaluations](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/evaluation-evaluators/)
+- [Evaluate generative AI applications in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/how-to/evaluate-generative-ai-app)
 
 Build a representative evaluation set before optimizing prompts. Track task success, factuality, tool correctness, safety, latency, and cost. Test model and prompt changes against the same set before release.
 
