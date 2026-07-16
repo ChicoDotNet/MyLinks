@@ -24,9 +24,9 @@ Prefer the Responses API for new text, tool, retrieval, and multimodal workflows
 
 - [What is Microsoft Foundry?](https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry)
 - [Microsoft Foundry documentation](https://learn.microsoft.com/en-us/azure/foundry/)
-- [Foundry SDK overview](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview)
-- [Azure OpenAI documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
-- [Responsible AI overview](https://learn.microsoft.com/en-us/azure/ai-services/responsible-use-of-ai-overview)
+- [Foundry SDK overview](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview)
+- [Azure OpenAI in Microsoft Foundry](https://learn.microsoft.com/en-us/azure/foundry/)
+- [Responsible AI overview](https://learn.microsoft.com/en-us/azure/foundry/responsible-use-of-ai-overview)
 
 Use Foundry when Azure governance, managed identity, networking, model catalog access, evaluations, or enterprise operations justify the platform layer.
 
@@ -35,7 +35,7 @@ Use Foundry when Azure governance, managed identity, networking, model catalog a
 - [Microsoft.Extensions.AI](https://learn.microsoft.com/en-us/dotnet/ai/microsoft-extensions-ai)
 - [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/overview/)
 - [.NET AI overview](https://learn.microsoft.com/en-us/dotnet/ai/)
-- [ML.NET](https://dotnet.microsoft.com/en-us/apps/ai/ml-dotnet)
+- [ML.NET documentation](https://learn.microsoft.com/en-us/dotnet/machine-learning/)
 - [ONNX Runtime](https://onnxruntime.ai/docs/)
 
 Preferred order:
@@ -49,7 +49,7 @@ Preferred order:
 
 - [OpenAI Agents SDK for Python](https://openai.github.io/openai-agents-python/)
 - [OpenAI Agents SDK for JavaScript](https://openai.github.io/openai-agents-js/)
-- [Model Context Protocol](https://modelcontextprotocol.io/introduction)
+- [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro)
 - [Semantic Kernel agents](https://learn.microsoft.com/en-us/semantic-kernel/frameworks/agent/)
 
 Do not introduce multiple agents when one model call with deterministic application code and a small tool set can solve the workflow. Every tool must have a clear authorization boundary, input validation, timeout, audit trail, and idempotency strategy where relevant.
