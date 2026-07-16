@@ -10,8 +10,6 @@ Both languages use the .NET SDK.
 | macOS | [.NET on macOS](https://learn.microsoft.com/en-us/dotnet/core/install/macos) |
 | Linux | [.NET on Linux](https://learn.microsoft.com/en-us/dotnet/core/install/linux) |
 
-General download page: [.NET downloads](https://dotnet.microsoft.com/en-us/download/dotnet).
-
 Verify:
 
 ```bash
@@ -119,7 +117,7 @@ On systems where `python` points elsewhere, use `python3`.
 
 | Platform | Official installation |
 | --- | --- |
-| Windows | [PHP for Windows](https://windows.php.net/download/) |
+| Windows | [PHP for Windows](https://www.php.net/downloads.php?os=windows) |
 | macOS | [Installing PHP on macOS](https://www.php.net/manual/en/install.macosx.php) |
 | Linux | [Installing PHP on Unix systems](https://www.php.net/manual/en/install.unix.php) |
 
