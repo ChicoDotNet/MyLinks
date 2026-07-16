@@ -10,7 +10,7 @@ Choose the platform route based on product requirements, team skills, native int
 - [Expo documentation](https://docs.expo.dev/)
 - [Create an Expo project](https://docs.expo.dev/get-started/create-a-project/)
 - [Expo Application Services](https://docs.expo.dev/eas/)
-- [React Navigation](https://reactnavigation.org/docs/getting-started)
+- [React Navigation](https://reactnavigation.org/docs/getting-started/)
 
 Use Expo's managed capabilities unless a specific native dependency requires a different workflow. Validate notifications, deep links, background behavior, permissions, store signing, and offline behavior early.
 
@@ -18,8 +18,8 @@ Use Expo's managed capabilities unless a specific native dependency requires a d
 
 **Recommended alternative** when C# reuse, Microsoft ecosystem integration, and one shared project across Android, iOS, macOS, and Windows provide the best organizational fit.
 
-- [.NET MAUI documentation](https://learn.microsoft.com/en-us/dotnet/maui/)
-- [.NET MAUI supported platforms](https://learn.microsoft.com/en-us/dotnet/maui/supported-platforms)
+- [.NET MAUI documentation](https://learn.microsoft.com/en-us/dotnet/maui/?view=net-maui-10.0)
+- [.NET MAUI supported platforms](https://learn.microsoft.com/en-us/dotnet/maui/supported-platforms?view=net-maui-10.0)
 - [.NET MAUI architecture guidance](https://learn.microsoft.com/en-us/dotnet/architecture/maui/)
 - [.NET MAUI Community Toolkit](https://learn.microsoft.com/en-us/dotnet/communitytoolkit/maui/)
 
@@ -31,7 +31,7 @@ Confirm platform-specific SDK and build-host requirements before committing to t
 
 - [Avalonia documentation](https://docs.avaloniaui.net/)
 - [Avalonia getting started](https://docs.avaloniaui.net/docs/get-started/)
-- [Avalonia controls](https://docs.avaloniaui.net/docs/reference/controls/)
+- [Avalonia controls](https://docs.avaloniaui.net/controls)
 
 Use Avalonia when the application is fundamentally a desktop product rather than a mobile application extended to desktop.
 
@@ -50,7 +50,7 @@ Treat every native command as a privileged boundary. Validate arguments, constra
 
 **Alternative** when mature Node.js desktop integrations, Chromium consistency, or an existing Electron ecosystem dependency outweigh package size and memory cost.
 
-- [Electron quick start](https://www.electronjs.org/docs/latest/tutorial/quick-start)
+- [Build your first Electron application](https://www.electronjs.org/docs/latest/tutorial/tutorial-first-app)
 - [Electron security](https://www.electronjs.org/docs/latest/tutorial/security)
 - [Electron Forge](https://www.electronforge.io/)
 
