@@ -27,9 +27,10 @@ jobs:
             --verbose
             --no-progress
             --max-retries 3
-            --format markdown
-            --output /github/workspace/lychee-report.md
             './**/*.md'
+          format: markdown
+          output: ./lychee/out.md
+          jobSummary: true
           fail: true
 
       - name: Upload link report
@@ -37,5 +38,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: link-check-report
-          path: lychee-report.md
+          path: lychee/out.md
           if-no-files-found: error
