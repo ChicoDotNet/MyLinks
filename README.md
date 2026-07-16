@@ -15,37 +15,37 @@ An opinionated application-bootstrap handbook: the links, decisions, and repeata
 5. Follow the relevant stack guide and recipe.
 6. Add project-specific architecture decisions to the new repository.
 
-```text
-What am I building?
-
-├── Web application
-│   ├── React + TypeScript + Vite
-│   ├── Angular
-│   └── ASP.NET Core / Blazor
-├── API or backend
-│   ├── ASP.NET Core
-│   ├── Python + FastAPI
-│   └── Rust + Axum
-├── Mobile application
-│   ├── React Native + Expo
-│   └── .NET MAUI
-├── Desktop application
-│   ├── Avalonia
-│   ├── Tauri
-│   ├── .NET MAUI
-│   └── Electron
-├── AI-enabled application
-│   ├── OpenAI APIs
-│   ├── Microsoft Foundry
-│   ├── Microsoft.Extensions.AI
-│   ├── Semantic Kernel
-│   └── ONNX Runtime / ML.NET
-└── Multimedia or real-time application
-    ├── FFmpeg / ffprobe
-    ├── OpenCV
-    ├── WebRTC / Web Audio
-    ├── GStreamer
-    └── Realtime voice and vision
+```mermaid
+mindmap
+  root((🧭 What am I building?))
+    🌐 Web application
+      React + TypeScript + Vite
+      Angular
+      ASP.NET Core / Blazor
+    ⚙️ API or backend
+      ASP.NET Core
+      Python + FastAPI
+      Rust + Axum
+    📱 Mobile application
+      React Native + Expo
+      .NET MAUI
+    🖥️ Desktop application
+      Avalonia
+      Tauri
+      .NET MAUI
+      Electron
+    ✨ AI-enabled application
+      OpenAI APIs
+      Microsoft Foundry
+      Microsoft.Extensions.AI
+      Semantic Kernel
+      ONNX Runtime / ML.NET
+    🎙️ Multimedia or real-time application
+      FFmpeg / ffprobe
+      OpenCV
+      WebRTC / Web Audio
+      GStreamer
+      Realtime voice and vision
 ```
 
 ## Golden paths
