@@ -20,8 +20,8 @@ uv add fastapi --extra standard
 ## API stack
 
 - [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
-- [Pydantic documentation](https://docs.pydantic.dev/latest/)
-- [Uvicorn](https://www.uvicorn.org/)
+- [Pydantic documentation](https://pydantic.dev/docs/validation/latest/get-started/)
+- [Uvicorn settings and installation](https://www.uvicorn.org/settings/)
 - [Starlette](https://www.starlette.io/)
 
 Use Pydantic models at system boundaries. Keep domain behavior out of route functions and avoid turning request models directly into persistence models when their lifecycles differ.
@@ -75,10 +75,10 @@ Use structured logs and propagate trace context across HTTP, queues, model calls
 ## AI and data
 
 - [OpenAI Python library](https://github.com/openai/openai-python)
-- [Microsoft Foundry SDKs and tools](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview)
+- [Microsoft Foundry SDKs and tools](https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview)
 - [pandas](https://pandas.pydata.org/docs/getting_started/index.html)
 - [scikit-learn](https://scikit-learn.org/stable/getting_started.html)
-- [PyTorch tutorials](https://pytorch.org/tutorials/)
+- [PyTorch tutorials](https://docs.pytorch.org/tutorials/)
 
 See [Modern AI](../ai/modern-ai.md) for model integration, agents, embeddings, local inference, evaluation, and safety.
 
