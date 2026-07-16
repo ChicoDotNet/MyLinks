@@ -1,29 +1,60 @@
 # MyLinks
-This are the links that I always want to remember to make my work life easier.
 
-## Audio
-- [FFMPEG builds](http://aegiscorp.free.fr/ffmpeg/)
+[![Check links](https://github.com/ChicoDotNet/MyLinks/actions/workflows/check-links.yml/badge.svg)](https://github.com/ChicoDotNet/MyLinks/actions/workflows/check-links.yml)
 
-## Courses
-- [AI-102 Designing and Implementing a Microsoft Azure AI Solution](https://microsoftlearning.github.io/AI-102-AIEngineer/)
+A compact, opinionated collection of links I use to make development and troubleshooting faster.
 
-## Debug
-### First thing to look
-- [Something failed... It was my code or AWS?](https://status.aws.amazon.com/)
-- [Something failed... It was my code or Azure?](https://status.azure.com/status/)
-- [Something failed... It was my code or Google?](https://status.cloud.google.com/)
+> Last reviewed: 2026-07-15
 
-## Development
-- [Microsoft identity Platform](https://github.com/Azure-Samples/ms-identity-javascript-angular-tutorial)
+## Cloud service health
 
-## Guides
-- [Adding Authentication with Azure AD to a .NET Angular Web App with MSAL](https://dev.to/theaswanson/adding-authentication-with-azure-ad-to-a-net-angular-web-app-with-msal-11a5)
-- [Configuring Scopes in Azure Active Directory](https://dev.to/czmiel24/configuring-scopes-in-azure-active-directory-part-1-3bio)
-- [Create FTPS server on Windows Server IIS in 5 minutes](https://medium.com/@sithum/create-ftps-server-on-windows-server-iis-in-5-minutes-sithum-devops-7a09823d91a4)
-- [.NET Localization](https://www.codemag.com/Article/2009081/A-Deep-Dive-into-ASP.NET-Core-Localization)
-- [SFTP operations using SSH.NET](https://codeburst.io/working-with-sftp-in-net-core-f1f464ab06f8)
-- [UPLOAD FILE TO SFTP SERVER](https://codinginfinite.com/upload-file-sftp-server-using-csharp-net-core-ssh/)
-- [Install IIS on Windows 10 using Powershell](https://www.how2shout.com/how-to/how-to-install-iis-on-windows-10-using-powershell.html)
+- [AWS Health Dashboard](https://health.aws.amazon.com/health/status)
+- [Microsoft Azure status](https://azure.status.microsoft/en-us/status/)
+- [Google Cloud service health](https://status.cloud.google.com/)
+- [GitHub status](https://www.githubstatus.com/)
 
-## Markup
-- [Diagrams and visualizations using text and code](https://mermaid-js.github.io/mermaid)
+## Learning
+
+- [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/)
+
+## .NET and architecture
+
+- [.NET documentation](https://learn.microsoft.com/en-us/dotnet/)
+- [ASP.NET Core documentation](https://learn.microsoft.com/en-us/aspnet/core/)
+- [Azure Architecture Center](https://learn.microsoft.com/en-us/azure/architecture/)
+
+## Identity and security
+
+- [Microsoft identity platform documentation](https://learn.microsoft.com/en-us/entra/identity-platform/)
+- [Angular SPA authentication tutorial](https://learn.microsoft.com/en-us/entra/identity-platform/tutorial-single-page-apps-angular-prepare-app)
+- [OAuth 2.0 scopes and OpenID Connect permissions](https://learn.microsoft.com/en-us/entra/identity-platform/scopes-oidc)
+
+## Localization
+
+- [Globalization and localization in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/localization/)
+
+## File transfer
+
+- [SSH.NET](https://github.com/sshnet/SSH.NET)
+
+## Media
+
+- [FFmpeg downloads](https://ffmpeg.org/download.html)
+
+## Diagrams and markup
+
+- [Mermaid documentation](https://mermaid.js.org/)
+
+## Repository workflow
+
+- `main` is the only long-lived branch.
+- Use a short-lived branch for each change, such as `docs/add-link` or `chore/refresh-links`.
+- Open a pull request before updating `main`.
+- Delete the source branch after the pull request is merged.
+
+## Maintenance rules
+
+- Prefer official or primary sources over third-party tutorials.
+- Prefer HTTPS links and pages that are actively maintained.
+- Replace outdated links instead of keeping duplicate legacy references.
+- Let the automated link checker detect link rot on pull requests and on a monthly schedule.
