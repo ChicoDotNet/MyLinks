@@ -28,7 +28,7 @@ jobs:
             --no-progress
             --max-retries 3
             --format markdown
-            --output ./lychee-report.md
+            --output /github/workspace/lychee-report.md
             './**/*.md'
           fail: true
 
@@ -38,4 +38,4 @@ jobs:
         with:
           name: link-check-report
           path: lychee-report.md
-          if-no-files-found: warn
+          if-no-files-found: error
