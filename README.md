@@ -10,9 +10,10 @@ An opinionated application-bootstrap handbook: the links, decisions, and repeata
 
 1. Choose the kind of application you are building.
 2. Select one preferred route instead of evaluating every possible framework.
-3. Complete the [new-project checklist](docs/start-here/new-project-checklist.md).
-4. Follow the relevant stack guide and recipe.
-5. Add project-specific architecture decisions to the new repository.
+3. Install the required compilers and runtimes from the [language toolchain matrix](languages/README.md).
+4. Complete the [new-project checklist](docs/start-here/new-project-checklist.md).
+5. Follow the relevant stack guide and recipe.
+6. Add project-specific architecture decisions to the new repository.
 
 ```text
 What am I building?
@@ -116,6 +117,15 @@ See [mobile and desktop](docs/platforms/mobile-desktop.md).
 See [multimedia and real time](docs/multimedia/multimedia.md).
 
 </details>
+
+## Language toolchains
+
+- [Genkidama and PositionTape language index](languages/README.md)
+- [Managed, scripting, and web languages](languages/managed-scripting-web.md)
+- [Native and systems languages](languages/native-systems.md)
+- [Scientific, functional, and educational languages](languages/scientific-functional.md)
+
+The language matrix provides official Windows, macOS, and Linux installation entry points for the 29 language families represented across Genkidama and PositionTape, plus SQLite as a related validation tool.
 
 ## Stack guides
 
