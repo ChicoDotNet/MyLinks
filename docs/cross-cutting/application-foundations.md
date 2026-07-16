@@ -16,15 +16,15 @@ Decide first who the identities are: workforce users, customers, partners, servi
 
 - [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
 - [REST API guidelines from Microsoft](https://github.com/microsoft/api-guidelines)
-- [Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc9457)
+- [Problem Details for HTTP APIs](https://www.rfc-editor.org/info/rfc9457)
 - [gRPC documentation](https://grpc.io/docs/)
-- [AsyncAPI specification](https://www.asyncapi.com/docs/reference/specification/latest)
+- [AsyncAPI specification](https://www.asyncapi.com/docs/reference/specification/v3.1.0)
 
 Define errors, validation, pagination, concurrency, idempotency, versioning, rate limits, and deprecation behavior before clients depend on accidental implementation details.
 
 ## Data and storage
 
-- [Azure SQL documentation](https://learn.microsoft.com/en-us/azure/azure-sql/)
+- [Azure SQL documentation](https://learn.microsoft.com/en-us/azure/azure-sql/?view=azuresql)
 - [PostgreSQL documentation](https://www.postgresql.org/docs/)
 - [Azure Storage documentation](https://learn.microsoft.com/en-us/azure/storage/)
 - [Redis documentation](https://redis.io/docs/latest/)
@@ -37,8 +37,8 @@ Choose a system of record for each concept. Add caches, search indexes, vector s
 - [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/)
 - [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/)
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
-- [GitHub secret scanning](https://docs.github.com/en/code-security/secret-scanning/introduction/about-secret-scanning)
-- [GitHub dependency review](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-dependency-review)
+- [GitHub secret scanning](https://docs.github.com/en/code-security/concepts/secret-security/secret-scanning)
+- [GitHub dependency review](https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review)
 - [Azure Key Vault documentation](https://learn.microsoft.com/en-us/azure/key-vault/)
 
 Minimum expectations:
@@ -63,7 +63,7 @@ Use the smallest test level that proves the behavior, but include realistic inte
 
 ## Observability
 
-- [OpenTelemetry documentation](https://opentelemetry.io/docs/)
+- [OpenTelemetry documentation source](https://github.com/open-telemetry/opentelemetry.io)
 - [OpenTelemetry semantic conventions](https://opentelemetry.io/docs/specs/semconv/)
 - [Azure Monitor documentation](https://learn.microsoft.com/en-us/azure/azure-monitor/)
 - [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
@@ -96,7 +96,7 @@ Retries without timeouts and idempotency can amplify incidents.
 - [Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/)
 - [Bicep documentation](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/)
 - [Terraform documentation](https://developer.hashicorp.com/terraform/docs)
-- [GitHub environments](https://docs.github.com/en/actions/deployment/targeting-different-environments/managing-environments-for-deployment)
+- [GitHub environments](https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments)
 
 Create immutable build artifacts and promote them through environments. Keep environment-specific values outside the artifact. Prefer workload identity federation or managed identity over long-lived deployment secrets.
 
@@ -104,7 +104,7 @@ Create immutable build artifacts and promote them through environments. Keep env
 
 - [Twelve-Factor App configuration](https://12factor.net/config)
 - [Azure App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/)
-- [OpenFeature](https://openfeature.dev/docs/)
+- [OpenFeature](https://openfeature.dev/docs/reference/intro/)
 
 Separate secrets from non-secret configuration. Use feature flags for controlled release and operational switches, not as permanent substitutes for a coherent domain model.
 
