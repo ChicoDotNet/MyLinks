@@ -10,8 +10,6 @@ The preferred community entry point is Alire, which installs and manages Ada too
 | macOS | [Alire documentation and installation](https://alire.ada.dev/docs/) |
 | Linux | [Alire documentation and installation](https://alire.ada.dev/docs/) |
 
-Alternative compiler source: [GNU Ada / GNAT](https://www.gnu.org/software/gnat/).
-
 Verify:
 
 ```bash
@@ -27,7 +25,7 @@ Assembly requires an assembler for the selected processor architecture and objec
 | --- | --- |
 | Windows | [NASM](https://www.nasm.us/) or [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) for Microsoft toolchains |
 | macOS | [Xcode resources](https://developer.apple.com/xcode/resources/) for Apple Clang and the platform assembler |
-| Linux | [GNU Binutils](https://www.gnu.org/software/binutils/) or [NASM](https://www.nasm.us/) |
+| Linux | [GNU Binutils](https://sourceware.org/binutils/) or [NASM](https://www.nasm.us/) |
 
 Verify the chosen toolchain, for example:
 
@@ -82,11 +80,11 @@ GnuCOBOL is the preferred open-source toolchain for the PositionTape implementat
 
 | Platform | Official installation |
 | --- | --- |
-| Windows | [GnuCOBOL project](https://www.gnu.org/software/gnucobol/) |
-| macOS | [GnuCOBOL project](https://www.gnu.org/software/gnucobol/) |
-| Linux | [GnuCOBOL project](https://www.gnu.org/software/gnucobol/) |
+| Windows | [GnuCOBOL project and downloads](https://gnucobol.sourceforge.io/) |
+| macOS | [GnuCOBOL project and downloads](https://gnucobol.sourceforge.io/) |
+| Linux | [GnuCOBOL project and downloads](https://gnucobol.sourceforge.io/) |
 
-The project publishes source releases; operating-system packages or maintained project distributions may provide binaries.
+The project publishes source releases and links to maintained platform distributions.
 
 Verify:
 
@@ -122,8 +120,6 @@ The Fortran community maintains platform-specific GNU Fortran setup instructions
 | macOS | [Install GNU Fortran](https://fortran-lang.org/learn/os_setup/install_gfortran/) |
 | Linux | [Install GNU Fortran](https://fortran-lang.org/learn/os_setup/install_gfortran/) |
 
-Alternative commercial/HPC route: [Intel oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html).
-
 Verify:
 
 ```bash
@@ -152,7 +148,7 @@ Objective-C is primarily supported by Apple's platform toolchain. GNUstep enable
 | --- | --- |
 | Windows | [GNUstep project](https://gnustep.github.io/) |
 | macOS | [Xcode resources](https://developer.apple.com/xcode/resources/) |
-| Linux | [GNUstep project](https://gnustep.github.io/) and [LLVM](https://releases.llvm.org/) |
+| Linux | [GNUstep project](https://gnustep.github.io/) and [LLVM releases](https://releases.llvm.org/) |
 
 The PositionTape Objective-C implementation is source-level on Windows because a complete native Apple-compatible environment is not available there.
 
@@ -168,9 +164,9 @@ The official installer is `rustup`, which installs Rust, Cargo, and toolchain co
 
 | Platform | Official installation |
 | --- | --- |
-| Windows | [Install Rust](https://www.rust-lang.org/tools/install) |
-| macOS | [Install Rust](https://www.rust-lang.org/tools/install) |
-| Linux | [Install Rust](https://www.rust-lang.org/tools/install) |
+| Windows | [Install Rust](https://rust-lang.org/tools/install/) |
+| macOS | [Install Rust](https://rust-lang.org/tools/install/) |
+| Linux | [Install Rust](https://rust-lang.org/tools/install/) |
 
 Windows also requires a supported linker toolchain, normally the Visual Studio C++ Build Tools for the MSVC target.
 
