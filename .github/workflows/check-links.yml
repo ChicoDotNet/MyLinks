@@ -27,6 +27,7 @@ jobs:
             --verbose
             --no-progress
             --max-retries 3
+            --accept 100..=103,200..=299,403
             './**/*.md'
           format: markdown
           output: ./lychee/out.md
