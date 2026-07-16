@@ -5,7 +5,7 @@
 ## Start here
 
 - [.NET documentation](https://learn.microsoft.com/en-us/dotnet/)
-- [.NET support policy](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
+- [.NET releases and support](https://learn.microsoft.com/en-us/dotnet/core/releases-and-support)
 - [ASP.NET Core documentation](https://learn.microsoft.com/en-us/aspnet/core/)
 - [.NET application architecture guides](https://learn.microsoft.com/en-us/dotnet/architecture/)
 - [.NET CLI overview](https://learn.microsoft.com/en-us/dotnet/core/tools/)
