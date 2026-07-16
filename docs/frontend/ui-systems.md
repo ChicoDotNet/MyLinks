@@ -9,7 +9,7 @@ Choose a coherent interface system before selecting individual controls. A compo
 **Recommended** for product interfaces that should feel native to the Microsoft ecosystem or follow Fluent design principles.
 
 - [Fluent 2 design system](https://fluent2.microsoft.design/)
-- [Fluent UI React v9](https://react.fluentui.dev/)
+- [Fluent UI React v9](https://storybooks.fluentui.dev/react/)
 - [Fluent UI Web Components](https://learn.microsoft.com/en-us/fluent-ui/web-components/)
 - [Fluent UI GitHub repository](https://github.com/microsoft/fluentui)
 
@@ -28,17 +28,17 @@ Prefer Bootstrap utilities and tokens over deeply overriding component internals
 ## CSS foundations
 
 - [MDN CSS guides](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics)
-- [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
-- [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout)
-- [Container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+- [CSS custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties)
+- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout)
+- [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout)
+- [Container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries)
 
 Use native CSS capabilities before adding a utility framework solely to solve layout or theming.
 
 ## Icons and typography
 
 - [Fluent System Icons](https://github.com/microsoft/fluentui-system-icons)
-- [Segoe UI variable font guidance](https://learn.microsoft.com/en-us/typography/font-list/segoe-ui-variable)
+- [Typography in Windows and Segoe UI Variable](https://learn.microsoft.com/en-us/windows/apps/design/signature-experiences/typography)
 
 Do not use icons without accessible names when they trigger actions. Do not use an icon as the only explanation for an unfamiliar operation.
 
