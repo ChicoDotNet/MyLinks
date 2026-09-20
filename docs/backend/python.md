@@ -22,7 +22,7 @@ uv add fastapi --extra standard
 - [FastAPI tutorial](https://fastapi.tiangolo.com/tutorial/)
 - [Pydantic documentation](https://pydantic.dev/docs/validation/latest/get-started/)
 - [Uvicorn installation](https://uvicorn.dev/installation/)
-- [Starlette](https://www.starlette.io/)
+- [Starlette](https://www.starlette.dev/)
 
 Use Pydantic models at system boundaries. Keep domain behavior out of route functions and avoid turning request models directly into persistence models when their lifecycles differ.
 
